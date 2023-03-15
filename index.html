@@ -34,11 +34,11 @@
         <div class="row p-1 d-flex justify-content-center">
           <div class="col-5">
             <label for="cardNum">Card #</label>
-            <input type="text" class="form-control" id="cardNum" placeholder="XXXXXXXXXXXXXXXX">
+            <input type="number" class="form-control" id="cardNum" placeholder="XXXXXXXXXXXXXXXX">
           </div>
           <div class="col-3">
             <label for="cvc">CVC #</label>
-            <input type="text" class="form-control" id="cvc" placeholder="0000">
+            <input type="number" class="form-control" id="cvc" placeholder="0000">
           </div>
           <div class="col-4">
             <label for="amount">Amount</label>
@@ -53,22 +53,22 @@
         <div class="row p-1 d-flex justify-content-center">
           <div class="col-6">
             <label for="firstName">First Name</label>
-            <input type="text" class="form-control" id="inputAddress2">
+            <input type="text" class="form-control" id="firstName">
           </div>
           <div class="col-6">
               <label for="lastName">Last Name</label>
-              <input type="text" class="form-control" id="inputCity">
+              <input type="text" class="form-control" id="lastName">
           </div>
         </div>
         <div class="row p-1 d-flex justify-content-center">
           <div class="col-6">
             <label for="city">City</label>
-            <input type="text" class="form-control" id="inputZip">
+            <input type="text" class="form-control" id="city">
           </div>
           <div class="col-3">
             <div class="form-group">
               <label for="inputState">State</label>
-                <select type="text" id="state" class="form-select text-muted" required>
+                <select id="state" class="form-select text-muted" required>
                 <option value="" disabled selected hidden>Pick a State</option>
                 <option class="option">Winsconsin</option>
                 <option class="option">Ohio</option>
@@ -79,7 +79,7 @@
           </div>
           <div class="col-3">
             <label for="postalCode">Postal Code</label>
-            <input type="text" class="form-control" id="inputZip1">
+            <input type="text" class="form-control" id="postalCode">
           </div>
         </div>
         <div class="row p-1 d-flex justify-content-start">
@@ -96,12 +96,12 @@
                 <label class="form-check-label text-white" for="inlineRadio2"><i class="fa fa-cc-visa"></i></label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option1">
-                <label class="form-check-label text-white" for="inlineRadio1"><i class="fa fa-cc-diners-club"></i></label>
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                <label class="form-check-label text-white" for="inlineRadio3"><i class="fa fa-cc-diners-club"></i></label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option2">
-                <label class="form-check-label text-white" for="inlineRadio2"><i class="fa fa-cc-amex"></i></label>
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                <label class="form-check-label text-white" for="inlineRadio4"><i class="fa fa-cc-amex"></i></label>
               </div>
             </div>
           </div>
